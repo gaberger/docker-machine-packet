@@ -29,7 +29,7 @@
 
 #### Example - Bring up 3 nodes in project prefixed with node name _test_
 
-./packet_up.sh  98d4a96a-7bad-4ecd-aac9-111823a6cce6 test 3
+`./packet_up.sh  98d4a96a-7bad-4ecd-aac9-111823a6cce6 test 3`
 
 ```
 creating node test-1
