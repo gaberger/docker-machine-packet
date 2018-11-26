@@ -22,9 +22,6 @@ else
 fi
 
 
-PROJECT_ID=98d4a96a-7bad-4ecd-aac9-111823a6cce6
-
-
 for i in `seq 1 $COUNT`; do
 	echo creating node $NODE_TEMPLATE-$i
 	docker-machine create --driver packet --packet-api-key "${API_KEY:?Need to set API_KEY}" --packet-project-id $PROJECT_ID $NODE_TEMPLATE-$i
